@@ -2,7 +2,7 @@
 
 ## Why Brevent
 
-"`Brevent`" hajacks several system API to prevent not-in-use apps in `prevent list` from running or keep running. Furthermore, it applies to system apps too, specially, support google-family apps(`GAPPS`).
+"`Brevent`" hijacks several system API to prevent not-in-use apps in `prevent list` from running or keep running. Furthermore, it applies to system apps too, specially, support google-family apps(`GAPPS`).
 
 Not-in-use packages in `prevent list` can only run:
 
