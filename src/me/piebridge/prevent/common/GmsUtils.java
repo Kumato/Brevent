@@ -24,6 +24,7 @@ public class GmsUtils {
     private static final String GSF = "com.google.android.gsf";
     private static final String GSF_LOGIN = "com.google.android.gsf.login";
     private static final String GAPPS_PREFIX = "com.google.android.";
+    private static final String GAPPS_PREFIX_CHROME = "com.chrome.";
     private static final String GAPPS_INPUTMETHOD_PREFIX = "com.google.android.inputmethod";
     private static final AtomicInteger GMS_COUNTER = new AtomicInteger();
     // https://developers.google.com/cloud-messaging/android/client
@@ -36,7 +37,7 @@ public class GmsUtils {
             GMS, GSF, GSF_LOGIN
     );
     private static Collection<String> GAPPS = Arrays.asList(
-            "com.android.chrome", "com.android.facelock", "com.android.vending"
+            "com.android.facelock", "com.android.vending"
     );
     private static Set<ComponentName> GCM_REGISTERS = new HashSet<ComponentName>();
 
@@ -45,7 +46,7 @@ public class GmsUtils {
     }
 
     public static boolean isGapps(String packageName) {
-        return packageName != null && (packageName.startsWith(GAPPS_PREFIX) || GAPPS.contains(packageName));
+        return packageName != null && (packageName.startsWith(GAPPS_PREFIX) || packageName.startsWith(GAPPS_PREFIX_CHROME) || GAPPS.contains(packageName));
     }
 
     public static void increaseGmsCount(Context context, String packageName) {
