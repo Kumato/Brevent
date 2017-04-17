@@ -192,7 +192,7 @@ public class BreventActivity extends Activity
             disabledXposed = true;
         } catch (ClassNotFoundException | PackageManager.NameNotFoundException e) {
             // do nothing
-        } catch (ReflectiveOperationException e) {
+        } catch (ReflectiveOperationException | ClassCastException e) {
             UILog.d("Can't disable Xposed", e);
         }
         if (BuildConfig.RELEASE) {
