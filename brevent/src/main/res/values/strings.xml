@@ -34,7 +34,7 @@
     <string name="brevent_service_adb_running">(Enabled)</string>
     <string name="brevent_service_usb_connected">(USB connected)</string>
     <string name="brevent_service_run_as_root">Run as ROOT</string>
-    <string name="brevent_service_success">Brevent service started successfully. Please click app icons to choose them, and brevent them</string>
+    <string name="brevent_service_success">Brevent service started successfully. Please click app icons to choose them and brevent them</string>
 
     <string name="fragment_apps_user">User Apps</string>
     <string name="fragment_apps_system">System Apps</string>
@@ -130,7 +130,7 @@
     <string name="brevent_check_notification">Check notifications</string>
     <string name="brevent_check_notification_label">Only turn off if device freeze when unlocking or viewing notification</string>
     <string name="brevent_when_request">Brevent manually</string>
-    <string name="brevent_when_request_label">Do a brevent when you launch Brevent. Normally, Brevent server delay the processes according to the event level</string>
+    <string name="brevent_when_request_label">Do a brevent when you launch Brevent. Normally, Brevent server delays the processes according to the event level</string>
     <string name="show_framework_apps">Show framework apps</string>
     <string name="show_framework_apps_label">All apps have the same signature with framework\n\nBe careful when breventing framework apps</string>
     <string name="show_all_apps">Show all apps</string>
